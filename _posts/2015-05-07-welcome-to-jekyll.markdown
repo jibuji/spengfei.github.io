@@ -1,25 +1,27 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "利用jekyll搭建自己的博客站点!"
 date:   2015-05-07 14:29:34
-categories: jekyll update
+categories: technology
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+###1. 安装rbenv，该工具可以方便的管理和安装ruby的不同版本###
+  参考这个页面中的`Installation`部分.
+    `https://github.com/sstephenson/rbenv`
+  
+###2. 安装ruby-build插件###
+  使用如下命令即可：
+    `git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build`
+    
+###3. 安装ruby，下面例子中选择2.2.2的ruby版本:###
+  {% highlight bash %}
+  rbenv install 2.2.2
+  rbenv local 2.2.2
+  {% endhighlight bash %}
+  
+###4. 安装rubyGems，参考如下网址：###
+  `https://rubygems.org/pages/download`
+  
+###5. 安装jekyll，参考如下网址：###
+  `http://jekyllrb.com/`
+  
