@@ -8,5 +8,5 @@ categories: technology
 Follow these steps:
 1. 安装shutter，可以在`ubuntu软件中心`里找到
 2. 剩下的内容，参考这个网址：
-  `http://blog.icoolxue.com/%E5%9C%A8ubuntu%E4%B8%8A%E4%B8%BAshutter%E6%B7%BB%E5%8A%A0%E5%BF%AB%E6%8D%B7%E9%94%AE/`
+  [在Ubuntu上为Shutter添加快捷键](http://blog.icoolxue.com/%E5%9C%A8ubuntu%E4%B8%8A%E4%B8%BAshutter%E6%B7%BB%E5%8A%A0%E5%BF%AB%E6%8D%B7%E9%94%AE/)
   
